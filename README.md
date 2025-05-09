@@ -1,5 +1,5 @@
 
-**Nome Completo do Integrante:** Thiago Almança da Silva
+**Nome:** Thiago Almança da Silva **RM:** 558108
 
 **URL do App:** (A URL do aplicativo Streamlit será inserida aqui após o deploy na nuvem do Streamlit)
 
@@ -57,31 +57,7 @@ O aplicativo permite que você carregue dados de clientes a partir de um arquivo
         * **Boxplot:** Um boxplot que compara a distribuição da coluna para os clientes "Propensos" e "Não Propensos".
         * **Histograma:** Um histograma que mostra a frequência dos valores da coluna para os clientes "Propensos" e "Não Propensos".
 
-## 3. Implantação (Deploy)
-
-Para implantar este aplicativo na nuvem e torná-lo acessível online, siga estas etapas:
-
-1.  **GitHub:**
-    * Crie uma conta no GitHub (se ainda não tiver uma).
-    * Crie um novo repositório no GitHub para o seu projeto.
-    * Faça upload de todos os arquivos do seu projeto para o repositório, incluindo:
-        * O script Python do Streamlit (por exemplo, app.py).
-        * O arquivo do modelo de Machine Learning (pickle_rf_pycaret2).
-        * A pasta "images" (se houver).
-        * Um arquivo chamado "requirements.txt" que lista as bibliotecas Python necessárias para o seu aplicativo (por exemplo, streamlit, pandas, numpy, pycaret, plotly). Você pode gerar este arquivo usando o comando `pip freeze > requirements.txt` no seu ambiente virtual.
-2.  **Streamlit Cloud:**
-    * Acesse o [Streamlit Cloud](https://streamlit.io/cloud).
-    * Faça login com sua conta do GitHub.
-    * Clique em "New app".
-    * Selecione o repositório do GitHub que você criou.
-    * Selecione a branch (geralmente "main" ou "master").
-    * Especifique o caminho para o seu script principal do Streamlit (por exemplo, app.py).
-    * Clique em "Deploy!".
-    * O Streamlit Cloud irá implantar seu aplicativo e fornecer uma URL para acessá-lo online.
-3.  **URL do Aplicativo:**
-    * Após a implantação bem-sucedida, o Streamlit Cloud fornecerá uma URL para o seu aplicativo. Você precisará desta URL para a entrega do seu projeto.
-
-## 4. Informações para Entrega
+## 3. Informações para Entrega
 
 Para a entrega do seu projeto, você precisará fornecer as seguintes informações:
 
