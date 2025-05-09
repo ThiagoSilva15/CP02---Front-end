@@ -70,7 +70,6 @@ Certifique-se de que o arquivo do modelo PyCaret (pickle_rf_pycaret2) esteja em 
 
 Coloque a logo em ./images/logo_fiap.png (ou substitua por outra imagem de sua preferência).
 
-
 * **Execute o Streamlit: **
 
 streamlit run app.py
