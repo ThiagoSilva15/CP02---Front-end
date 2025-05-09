@@ -1,8 +1,8 @@
 
 **Nome:** Thiago Almança da Silva **RM:** 558108
 
-**Link do Repositório GitHub:** https://github.com/criswd/checkpoint-ifood-pycaret
-* **📓 Notebook no Colab:** Acessar
+**Link do Repositório GitHub do primeiro CP:** https://github.com/criswd/checkpoint-ifood-pycaret
+* **📓 Notebook no Colab:** https://colab.research.google.com/drive/1Tl3wDeVi_1gYCofGjFRZi0TzNDA-n8bI?usp=sharing
 ---
 
 **Instruções de Uso do Aplicativo**
