@@ -54,3 +54,87 @@ O aplicativo permite que você carregue dados de clientes a partir de um arquivo
     * Para cada uma das colunas numéricas (`Age`, `Income`, `Recency`, `Frequency`, `Spent`), o aplicativo exibirá:
         * **Boxplot:** Um boxplot que compara a distribuição da coluna para os clientes "Propensos" e "Não Propensos".
         * **Histograma:** Um histograma que mostra a frequência dos valores da coluna para os clientes "Propensos" e "Não Propensos".
+
+
+### 3.como Rodar 
+* ** 📦 Requisitos **
+Antes de executar, certifique-se de ter as seguintes bibliotecas instaladas:
+
+pip install streamlit pandas numpy pycaret plotly
+💡 Recomendado: criar um ambiente virtual (venv) para isolar as dependências do projeto.
+
+* **🚀 Como Rodar **
+Clone o repositório ou baixe os arquivos.
+
+Certifique-se de que o arquivo do modelo PyCaret (pickle_rf_pycaret2) esteja em ./deploy/pickle/.
+
+Coloque a logo em ./images/logo_fiap.png (ou substitua por outra imagem de sua preferência).
+
+
+* **Execute o Streamlit: **
+
+streamlit run app.py
+📂 Modos de Uso
+🗂️ Modo CSV
+No menu lateral, selecione "CSV" como fonte de dados.
+
+Faça o upload de um arquivo .csv com as seguintes colunas obrigatórias:
+
+Age
+
+Income
+
+Recency
+
+Frequency
+
+Spent
+
+Ajuste o threshold de classificação se desejar.
+
+Visualize:
+
+Métricas gerais de classificação.
+
+Distribuição de predições.
+
+Tabelas estilizadas com scores.
+
+Análises gráficas por feature (boxplots e histogramas).
+
+Baixe as predições em CSV com o botão “⬇️ Baixar Predições”.
+
+* ** 🌐 Modo Online **
+Atualmente, este modo está desabilitado. Utilize o modo CSV com os dados de teste gerados previamente.
+
+* ** 📊 Funcionalidades **
+Classificação binária utilizando modelo treinado com PyCaret.
+
+Upload de dados customizados via CSV.
+
+Interface responsiva com tema personalizado.
+
+Ajuste de threshold de classificação.
+
+Métricas interativas com Plotly.
+
+Download de resultados.
+
+* ** 🧠 Sobre o Modelo **
+O modelo carregado (pickle_rf_pycaret2) é um Random Forest Classifier treinado com dados simulados de comportamento de clientes e preparado via PyCaret.
+
+📎 Estrutura de Pastas
+
+├── app.py                   # Arquivo principal da aplicação
+├── deploy/
+│   └── pickle/
+│       └── pickle_rf_pycaret2
+├── images/
+│   └── logo_fiap.png
+📌 Observações
+O código utiliza @st.cache_resource para otimizar o carregamento do modelo.
+
+O threshold padrão de classificação é 0.5, mas pode ser ajustado dinamicamente.
+
+Arquivos CSV com colunas incompletas serão rejeitados automaticamente.
+
