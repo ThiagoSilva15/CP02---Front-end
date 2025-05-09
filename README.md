@@ -1,10 +1,8 @@
 
 **Nome:** Thiago Almança da Silva **RM:** 558108
 
-**URL do App:** (A URL do aplicativo Streamlit será inserida aqui após o deploy na nuvem do Streamlit)
-
 **Link do Repositório GitHub:** https://github.com/criswd/checkpoint-ifood-pycaret
-
+* **📓 Notebook no Colab:** Acessar
 ---
 
 **Instruções de Uso do Aplicativo**
@@ -56,13 +54,3 @@ O aplicativo permite que você carregue dados de clientes a partir de um arquivo
     * Para cada uma das colunas numéricas (`Age`, `Income`, `Recency`, `Frequency`, `Spent`), o aplicativo exibirá:
         * **Boxplot:** Um boxplot que compara a distribuição da coluna para os clientes "Propensos" e "Não Propensos".
         * **Histograma:** Um histograma que mostra a frequência dos valores da coluna para os clientes "Propensos" e "Não Propensos".
-
-## 3. Informações para Entrega
-
-Para a entrega do seu projeto, você precisará fornecer as seguintes informações:
-
-* **Nome Completo do Integrante:** Thiago Almança da Silva
-* **URL do App:** (A URL do aplicativo Streamlit será inserida aqui após o deploy na nuvem do Streamlit)
-* **Link do Repositório GitHub:** https://github.com/criswd/checkpoint-ifood-pycaret
-
-**Observação Importante:** A URL do aplicativo é um requisito obrigatório para a entrega. Certifique-se de implantar seu aplicativo no Streamlit Cloud para obter esta URL.
